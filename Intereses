@@ -1,0 +1,7 @@
+Algoritmo Intereses
+	Escribir "Digite el valor del capital";
+	Leer capital
+	interes<-Capital*0.02
+	totalacumulado<-capital+interes
+	Escribir "El valor acumulado en el banco es de:$",totalacumulado
+FinAlgoritmo
