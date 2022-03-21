@@ -1,0 +1,8 @@
+Algoritmo DescuentoSHER
+	Definir Compra, Pagar, descuento Como Real
+	Escribir "Ingrese el total de la compra para saber cuanto se le aplicó de descuento";
+	Leer Compra
+	descuento = Compra*0.20
+	Pagar = Compra-descuento
+	Escribir "Su total a pagar es de $", Pagar
+FinAlgoritmo
