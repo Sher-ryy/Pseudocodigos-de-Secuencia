@@ -1,0 +1,14 @@
+Algoritmo resta
+	definir numero1, numero2, numero3, mas, final Como Real
+	escribir"Ingresa un numero";
+	leer numero1;
+	escribir"Ingresa otro numero";
+	leer numero2;
+	escribir"Ingresa numero que quieras restar"
+	leer numero3;
+	mas<-numero1+numero2;
+	final<- mas-numero3;
+	escribir "La suma del primer y segundo numero es:", mas;
+	escribir "El resultado de la resta es:" final
+	
+FinAlgoritmo
