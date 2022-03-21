@@ -1,0 +1,18 @@
+Algoritmo Salario
+	Definir nombre Como Caracter
+	Definir Trabajo Como Entero
+	Definir Hora Como Real
+	Definir Bruto, Desc, Pagar Como Real
+	Escribir "Ingrese su nombre:"
+	Leer nombre
+	Escribir "Ingrese horas trabajadas:"
+	Leer Trabajo
+	Escribir "Ingrese Precio por hora:"
+	Leer Hora
+	Bruto = Hora*Trabajo
+	Desc = Bruto*0.10
+	Pagar = Bruto-Desc
+	Escribir "Su sueldo es de: $", Pagar
+	Escribir "Descuento del: $", Desc
+	Escribir "Su sueldo bruto es de: $", Bruto
+FinAlgoritmo
